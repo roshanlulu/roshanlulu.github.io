@@ -5,7 +5,7 @@ permalink: /data-science-projects/
 ---
 
 <div class="projects">
-  {% for post in site.projects %}
+  {% for project in site.projects %}
     <article class="project">
 
       <h1><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h1>
