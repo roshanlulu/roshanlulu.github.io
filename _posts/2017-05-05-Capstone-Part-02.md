@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Capstone Part 2"
+project: false
 ---
 
 This blog is the 2nd part of my Capstone project at General Assembly. These notes are helpful to review the project at a later point and add to lessons learnt.

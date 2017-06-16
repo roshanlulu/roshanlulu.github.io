@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Python Spyder - I Crawl and Srape!"
+project: false
 ---
 
 Step by step guide to building a bot in _python_ using **Scrapy and Spyder** that crawls and scrapes websites.

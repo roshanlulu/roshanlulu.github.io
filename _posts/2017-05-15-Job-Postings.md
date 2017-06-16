@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Project 4 - Web Scraping Job Postings"
+project: true
 ---
 
 **The aim** of this project is to investigate the trend in Jobs related to Data Science, Data Analysts, Business Intelligence and Business Analysts. The main focus is to find key features that help to distinguish Salary scale, Job Titles , Industry among the different Jobs that have been selected.
@@ -52,6 +53,7 @@ First look at the dataset:
     - Plotting a heat map was not useful in this case.
 
 ### Data Modelling
+
 1. What are the factors that impact salary and can be used to predict it?
 
 - Salary is a continuous variable. Hence, I choose to apply a regression model. 
@@ -77,6 +79,7 @@ Inference:
 
 2. Discover which features have the greatest importance when determining a low vs. high paying job.
 
+>
 - What next?:
     - Due to the less number of valid salaries, it would be easier to convert this into a classification problem.
     - - In order to get the overall features/SKILLS/Keywords that are significant, the target is not the continuous salary anymore.
@@ -101,5 +104,5 @@ Inference:
     - Creating a dataframe from the ngrams(2,4) and concatenating it as features would be helpful for this problem statement.
     - Again the grid Search cv with a Decision tree classifier gave good results.
     - data science', 'data analyst', 'business intelligence','data analytics', 'data reporting', 'data driven', 'market leader','business data', 'cbd location', 'Title_Code_1', 'best practices',
-    
+
 

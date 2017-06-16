@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Capstone Part 3"
+project: false
 ---
 
 Progress report of my capstone project.

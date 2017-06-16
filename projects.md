@@ -1,20 +1,22 @@
 ---
 layout: page
 title: Data Science Projects
-permalink: /data-science-projects/
+permalink: /dsprojects/
 ---
 
-<div class="projects">
-  {% for project in site.projects %}
-    <article class="project">
+<div class="posts">
+  {% for post in site.posts %}
+    {% if post.project %}
+      <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h1>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ project.excerpt }}
-      </div>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
 
-      <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">Read More</a>
-    </article>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+    {% endif %}
   {% endfor %}
 </div>

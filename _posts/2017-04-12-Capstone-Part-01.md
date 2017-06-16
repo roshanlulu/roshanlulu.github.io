@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Capstone Part 1"
+project: false
 ---
 
 Iteration cannot be avoided in data science projects. This blog is the 1st part of my Capstone project at General Assembly. These notes are helpful to review the project at a later point and add to lessons learnt.

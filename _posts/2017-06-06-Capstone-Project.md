@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Capstone Project"
+project: true
 ---
 
 Can we improve **Aviation Safety** by studying accident data from the past?

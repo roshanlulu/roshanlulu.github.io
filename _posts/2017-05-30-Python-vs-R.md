@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Python vs R"
+project: false
 ---
 
 What are the major differences between Python and R? 

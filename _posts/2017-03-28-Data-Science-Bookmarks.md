@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Data Science Bookmarks"
+project: false
 ---
 
 Bookmark of the links and references I have referred for Data Science development and learning.
