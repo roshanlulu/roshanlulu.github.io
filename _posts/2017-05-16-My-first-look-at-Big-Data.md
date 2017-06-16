@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First look at Big Data"
+title:  "My first look at Big Data"
 ---
 
 My notes on the first look at AWS(EC2, S3), Hadoop and Spark (getting through the installations and login)
