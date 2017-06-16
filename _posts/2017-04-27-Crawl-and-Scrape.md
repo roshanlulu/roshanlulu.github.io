@@ -3,6 +3,8 @@ layout: post
 title:  "Python Spyder - I Crawl and Srape!"
 ---
 
+Step by step guide to building a bot in _python_ using **Scrapy and Spyder** that crawls and scrapes websites.
+
 ### A. Preface
 As a part of my Data science capstone project, I had to get data from website links. I started my search and found numerous ways to scrape data of the web. I found Beautiful soup and scrapy to scrape data of a website. Thanks to the open source community and documentation, the web has enough information, all i had to do was to adapt it to what I wanted.
 
