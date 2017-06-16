@@ -5,15 +5,15 @@ title:  "Capstone Part 3"
 
 Progress report of my capstone project.
 
-### Throwback to Capstone part 02
+## Throwback to Capstone part 02
 
 - Obtained primary dataset from `www.planecrashinfo.com`
 - Peformed Data cleaning and Exploratory data analysis.
 - During EDA, It was found that the dataset had quite a few missing values. As a result of which, a potential dataset needed to be taken into consideration for part 03
 
-### Capstone part 03
+## Capstone part 03
 
-#### EDA on new dataset
+### EDA on new dataset
 ___
 
 - Imported dataset from the Aviation Safety Network Website: `https://aviation-safety.net/database/`
@@ -27,7 +27,7 @@ ___
 - Evaluate features required for this project
 - Save the cleaned dataset to a csv file. This will be used as the dataset reference during the phase of this project.
 
-#### Summary of EDA
+### Summary of EDA
 *Categorizing the features during Data munging was helpful to decide the useful features for the project. The features I have retained, extracted or dropped have been described below. *
 
 **Airline details: **
