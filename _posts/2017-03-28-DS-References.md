@@ -70,7 +70,7 @@ Gradient Descent
 [Data Storytelling] - https://www.youtube.com/watch?v=6xsvGYIxJok&t=426s
 [RMSE Stackoverflow] - http://stackoverflow.com/questions/17197492/root-mean-square-error-in-python
 [The Correlation Coefficient - Common Misconception]https://www.youtube.com/watch?v=-4d3BvUxwfs
-[Correlation Coefficient]: https://www.youtube.com/watch?v=ugd4k3dC_8Y
+[Correlation Coefficient](https://www.youtube.com/watch?v=ugd4k3dC_8Y)
 [Spearmans Correlation Coefficient]: https://www.youtube.com/watch?v=4nkueUds1g0
 [Pandas Dataframe apply usage] - https://chrisalbon.com/python/pandas_apply_operations_to_dataframes.html
 [Hypothetic Statistics] - https://www.youtube.com/watch?v=0zZYBALbZgg
