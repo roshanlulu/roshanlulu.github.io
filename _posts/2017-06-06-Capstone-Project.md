@@ -4,6 +4,7 @@ title:  "Capstone Project"
 ---
 
 Can we improve **Aviation Safety** by studying accident data from the past?
+[Capstone project on github](https://github.com/roshanlulu/gaProjects/tree/master/capstoneProject)
 
 Executive Summary
 ![]({{ site.url }}/assets/images/runway.gif)
