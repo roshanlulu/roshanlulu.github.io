@@ -3,7 +3,7 @@ layout: post
 title:  "Capstone Project"
 ---
 
-Can we improve **Aviation Safety** by studying accident data from the past? The following post is the summary of this problem statement and was my capstone project.
+Can we improve **Aviation Safety** by studying accident data from the past?
 
 Executive Summary
 ![]({{ site.url }}/assets/images/runway.gif)
@@ -274,6 +274,6 @@ The focus of the dataset was parameters that were recorded whent he incident occ
 Aviation industry is definitely getting better over the years. Considering the fact that it is also becoming a common mode of transport unlike the luxury it used to be, the safety standards can never be enough for the improvements to stop.
 
 
-# News from 2016 - I was glad to read this up! This shows that the air traffic management has become better when compared to few decades ago.
+#### News from 2016 - I was glad to read this up! This shows that the air traffic management has become better when compared to few decades ago.
 http://timesofindia.indiatimes.com/india/indigo-and-spicejet-flights-avert-collision-at-delhi-airport/articleshow/56195815.cms
 - A major mishap was averted at Indira Gandhi International Airport when an Indigo flight 6E 769 and a Spice Jet flight SG 123 came face-to-face on the runway. However, no damage occurred as it was promptly flagged. The Spice Jet flight was following ATC instructions. While taxing, the Spice Jet crew observed another aircraft in the opposite direction.
