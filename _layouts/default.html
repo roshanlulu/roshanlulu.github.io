@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript">
+      window.onload = function () {
+        var nav = document.getElementById('nav');
+        var anchor = nav.querySelectorAll('a');
+        
+        anchor.forEach((a) => {
+          const attr = a.getAttribute('href').replace(/\//g, '');
+          const pathname = window.location.pathname.toLowerCase().replace(/\//g, '');
+          if (attr === pathname) {
+            a.className = 'active';
+          }
+        })
+      }; 
+    </script>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -26,7 +40,7 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+          <nav id="nav">
             <a href="{{ site.baseurl }}/">Posts</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/dsprojects">Projects</a>

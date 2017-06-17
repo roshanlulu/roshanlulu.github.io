@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Data Science Projects
 permalink: /dsprojects/
+active: dsprojects
 ---
 
 <div class="posts">

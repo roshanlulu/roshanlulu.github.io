@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $green;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $green;
   font-size: 16px;
 
   @include mobile {
@@ -225,10 +225,18 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $green;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    &:hover {
+      font-weight: bold;
+    }
+
+    &.active {
+      color: $green;
+      font-weight: bold;
+    }
 
     @include mobile {
       margin: 0 10px;
@@ -244,6 +252,11 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  h1 {
+    a {
+      font-weight:500;
+    }
+  }
 }
 
 .posts > .post:last-child {
