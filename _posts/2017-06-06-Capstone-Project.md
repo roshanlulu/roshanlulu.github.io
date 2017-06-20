@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Capstone Project"
+title:  "Capstone Project - Exploratory Data analysis, Unsupervised Learning, Natural Language Processing"
 project: true
 ---
 
