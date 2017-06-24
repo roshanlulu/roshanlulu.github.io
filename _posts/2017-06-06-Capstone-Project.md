@@ -9,7 +9,7 @@ Can we improve **Aviation Safety** by studying accident data from the past?
 Air travel is getting affordable day by day and in effect people are using air transport more commonly. There have been cases of incidents/accidents which bore similarity to past accidents. This got me thinking as to how can we avoid future accidents by studying data from the past. i.e. Can we get insights form past data to work towards a better future.
 
 In my Capstone project at General Assembly, I used Data Science techniques such as Natural Language processing and Clustering to find patterns in the past aviation incidents/accidents.
-Aviation Accidents have fatalities involved in the event, whereas Incidents are events which did not involve any fatalities. I will be studying both types of events together, since the cause for a near miss event could be a potentital cause for the next accident.
+Aviation Accidents have fatalities involved in the event, whereas Incidents are events which did not involve any fatalities. I will be studying both types of events together, since the cause for a near miss event could be a potential cause for the next accident.
 
 [Click here to view my capstone project on github](https://github.com/roshanlulu/gaProjects/tree/master/capstoneProject)
 

@@ -5,7 +5,7 @@ active: post
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if post.project == false %}
+    {% if post.project == true %}
       <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
