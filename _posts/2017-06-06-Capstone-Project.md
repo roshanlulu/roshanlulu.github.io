@@ -4,7 +4,7 @@ title:  "Aviation Safety Analysis"
 project: true
 ---
 
-Can we improve **Aviation Safety** by studying accident data from the past using Exploratory Data analysis, Unsupervised Learning and Natural Language Processing?
+Can we improve **Aviation Safety** by studying accident data from the past?
 
 Air travel is getting affordable day by day and in effect people are using air transport more commonly. There have been cases of incidents/accidents which bore similarity to past accidents. This got me thinking as to how can we avoid future accidents by studying data from the past. i.e. Can we get insights form past data to work towards a better future.
 
@@ -28,7 +28,7 @@ Aviation Accidents have fatalities involved in the event, whereas Incidents are 
 ## Problem statement<a id='ps'></a>
 The aviation safety authority is the body in a country that licenses pilots, registers the aircrafts and oversees the overall safety. Safety management systems help organisations identify safety risks before they become bigger problems. Civil Aviation Requirements require the aviation industry to put safety management systems in place as an extra layer of protection to help save lives.
 
-Most people believe that aviation accidnets are individual incidents. On an average there are 200 events(accidents+incidents) that occur across the world. It may seem like a small number compared to road accidents, but considering the technology and the money involved in this industry, it is a large number.
+Most people believe that aviation accidnets are individual incidents. On an average there are 200 events(accidents+incidents) that occur every year across the world. It may seem like a small number compared to road accidents, but considering the technology and the money involved in this industry, it is a large number.
 
 
 <a id='data'></a>
@@ -59,7 +59,7 @@ Considering the number and frequency of the events occuring in a year, it made s
 ![]({{ site.url }}/assets/capstone/world_heatmap.png)
 
 ### Countries with maximum number of Civil Fatalities 
-- This graph is purely on the numbers. It could also be that these countries could be flying more hence the number is more. If a dataset with the total numbe rof people travelling in a country per year, the fatality percentage would be abetter view.
+- This graph is purely on the numbers. It could also be that these countries could be flying more hence the number is more. If a dataset with the total number of people travelling in a country per year, the fatality percentage would be a better view.
 ![]({{ site.url }}/assets/capstone/Civil_Fatalities_by_Country.png)
 
 ### Accident and Fatality Trend over the decades
@@ -88,7 +88,7 @@ After understanding the dataset, the following questions needed to be answered t
 The causes are not directly available in the dataset. The dataset contains unstructured textual content that describes the cause of the accident.
 #### Method 1: 
 - Use NLTK libraries to train a model that categorizes the reason of each accident based on unstructured text.
-- reprocess text, Tokenize using Vectorizer, Transformer and SVM Classifier. SVM is regarded as on of the best text classification algorithm.
+- Preprocess text, Tokenize using Vectorizer, Transformer and SVM Classifier. SVM is regarded as on of the best text classification algorithm.
 #### Results of Classification:
 ![]({{ site.url }}/assets/capstone/Trend_by_Accident_Cause.png)
 #### Method 2: 
@@ -96,9 +96,9 @@ The causes are not directly available in the dataset. The dataset contains unstr
 #### Result of Topic Modeliing: 
 Quite Interesting! After trying several number of topics, 3 topics gave distinct categories that were similar to Engine Failures, Pilot errors, Hijackers.
 
-2. Is there an area that has had a high density of crashes in the past?
+2. **Is there an area that has had a high density of crashes in the past?**
 - It is important to know the root cause of an area being susceptible to accidents. Only with proper analysis, measures can be taken to avoid future accidents. 
-- It was not easy to look for high density areas ona  map to start investigation.
+- It was not easy to look for high density areas on a  map to start investigation.
 - Clustering methods were required to find high density areas.
 - DBScan clustering with haversine distance was found to be the most suitable algorithm. I set the parameters to find a location in Asia with at least 20 accidents that occurred within 1km from each other. From the results obtained I decided to delve into a familiar location.
 - The insights were pretty interesting. More incidents were on the runway. It mostly pointed to Air traffic management issues.
@@ -110,6 +110,6 @@ Quite Interesting! After trying several number of topics, 3 topics gave distinct
 ## Conclusion
 Due to project time constraints, we have been able to boil down on one location. But there are a lot more around the world. 
 
-With the large amount of data, it can overwhelming to know where to start looking. This model can be used to narrow down on potential risk locations.
+With the large amount of data, it can over-whelming to know where to start looking. This model can be used to narrow down on potential risk locations.
 
 As an enhancement to the model, more datasets relating to weather information, airport staffing, last maintenance information could be collected, to find more insights and apply different models.
