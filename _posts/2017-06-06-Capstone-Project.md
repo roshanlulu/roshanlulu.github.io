@@ -3,6 +3,7 @@ layout: post
 title:  "Aviation Safety Analysis"
 project: true
 ---
+
 Can we improve **Aviation Safety** by studying accident data from the past using Exploratory Data analysis, Unsupervised Learning and Natural Language Processing?
 
 Air travel is getting affordable day by day and in effect people are using air transport more commonly. There have been cases of incidents/accidents which bore similarity to past accidents. This got me thinking as to how can we avoid future accidents by studying data from the past. i.e. Can we get insights form past data to work towards a better future.
@@ -12,7 +13,7 @@ Aviation Accidents have fatalities involved in the event, whereas Incidents are 
 
 [Click here to view my capstone project on github](https://github.com/roshanlulu/gaProjects/tree/master/capstoneProject)
 
-![]({{ site.url }}/assets/images/runway.gif)
+![]({{ site.url }}/assets/capstone/runway.gif)
 
 
 ## Project Outline
@@ -55,11 +56,11 @@ Considering the number and frequency of the events occuring in a year, it made s
 ## Data Visualization
 
 ### Heatmap of Countries
-![]({{ site.url }}/assets/map/world_heatmap.png)
+![]({{ site.url }}/assets/capstone/world_heatmap.png)
 
 ### Countries with maximum number of Civil Fatalities 
 - This graph is purely on the numbers. It could also be that these countries could be flying more hence the number is more. If a dataset with the total numbe rof people travelling in a country per year, the fatality percentage would be abetter view.
-![]({{ site.url }}/assets/Tableau/Civil Fatalities by Country.png)
+![]({{ site.url }}/assets/capstone/Civil_Fatalities_by_Country.png)
 
 ### Accident and Fatality Trend over the decades
 As anyone would be, I was curious to see the accident trends based on the data. The trend is definitely declining. But its interesting to see the peaks during 1940s and 1970s and 1990s.
@@ -67,11 +68,11 @@ As anyone would be, I was curious to see the accident trends based on the data. 
 - 1970s had it all - hijackings, crashes and military deployments in Vietnam. That was also when airfares got cheaper, Boeing capacity increased from 100 to 300 and hence more people travelled.
 Around 1990s there was an increase in new airlines and aircrafts like Australia Asia airlines, Air Japan. Boeing capacity increased from 300 to 500 and was capable of longer flights. It was estimated that the number of international trips made by Australians increased by 75 percent.
 **Over all the accident trend is declining except during wars or innovations!**
-![]({{ site.url }}/assets/Tableau/Crash Trend.png)
+![]({{ site.url }}/assets/capstone/Crash_Trend.png)
 
 The chance of dying in an airplane crash is less than while riding a bicycle. But constant improvement is required as air travel is becoming a common mode of transport. The aviation safety is definitely getting better over the years. The trend shows that number of lives lost is lesser than before. It is good, but we definitely need better!
 
-![]({{ site.url }}/assets/Tableau/Fatality Trend.png)
+![]({{ site.url }}/assets/capstone/Fatality_Trend.png)
 
 [If you are interested to checkout my Tableau dashboard, Click here](https://public.tableau.com/profile/roshan.lulu#!/vizhome/Aviation_Accident_Analysis/TrendDashboard)
 
@@ -89,12 +90,11 @@ The causes are not directly available in the dataset. The dataset contains unstr
 - Use NLTK libraries to train a model that categorizes the reason of each accident based on unstructured text.
 - reprocess text, Tokenize using Vectorizer, Transformer and SVM Classifier. SVM is regarded as on of the best text classification algorithm.
 #### Results of Classification:
-![]({{ site.url }}/assets/Tableau/Trend by Accident Cause.png)
+![]({{ site.url }}/assets/capstone/Trend_by_Accident_Cause.png)
 #### Method 2: 
 - Unsupervised Topic Modelling using LDA - Cleaning, Preprocessing text, Preparing document term matrix, LDA model
 #### Result of Topic Modeliing: 
 Quite Interesting! After trying several number of topics, 3 topics gave distinct categories that were similar to Engine Failures, Pilot errors, Hijackers.
-![]({{ site.url }}/assets/images/heatmap_lda.png)
 
 2. Is there an area that has had a high density of crashes in the past?
 - It is important to know the root cause of an area being susceptible to accidents. Only with proper analysis, measures can be taken to avoid future accidents. 
@@ -105,7 +105,7 @@ Quite Interesting! After trying several number of topics, 3 topics gave distinct
 - I was able find more articles that supported the claim.
 - One good thing is these are incidents till now. The fatality trend below is quite good.
 
-![]({{ site.url }}/assets/images/delhitrend.png)
+![]({{ site.url }}/assets/capstone/delhitrend.png)
 
 ## Conclusion
 Due to project time constraints, we have been able to boil down on one location. But there are a lot more around the world. 
