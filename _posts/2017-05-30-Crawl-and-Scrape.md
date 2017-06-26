@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python Spyder - I Crawl and Srape!"
+title:  "Python Spyder - I Crawl and Scrape!"
 project: false
 ---
 
