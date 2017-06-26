@@ -12,7 +12,3 @@ During the course, I have gained hands on experience in data extraction, data mu
 Before General Assembly I was working as a Software Engineer where I analysed requirements, implemented and delivered production quality software on-time. Debugging times have always included collecting data and finding insights into the issue from it. These are the skills I consider valuable for my next opportunity.
 
 For my next role I am looking to apply my data science skills in a data-driven industry for better decision making or problem-solving. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
