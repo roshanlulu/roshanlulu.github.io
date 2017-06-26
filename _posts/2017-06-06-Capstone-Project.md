@@ -11,10 +11,8 @@ Air travel is getting affordable day by day and in effect people are using air t
 In my Capstone project at General Assembly, I used Data Science techniques such as Natural Language processing and Clustering to find patterns in the past aviation incidents/accidents.
 Aviation Accidents have fatalities involved in the event, whereas Incidents are events which did not involve any fatalities. I will be studying both types of events together, since the cause for a near miss event could be a potential cause for the next accident.
 
-[Click here to view my capstone project on github](https://github.com/roshanlulu/gaProjects/tree/master/capstoneProject)
-
-![]({{ site.url }}/assets/capstone/runway.gif)
-
+{: .center}
+![]({{ site.url }}/assets/capstone/1_flight_ngram.png)
 
 ## Project Outline
 1. [Problem Statement](#ps)
@@ -74,7 +72,7 @@ The chance of dying in an airplane crash is less than while riding a bicycle. Bu
 
 ![]({{ site.url }}/assets/capstone/Fatality_Trend.png)
 
-[If you are interested to checkout my Tableau dashboard, Click here](https://public.tableau.com/profile/roshan.lulu#!/vizhome/Aviation_Accident_Analysis/TrendDashboard)
+[If you are interested to checkout my Tableau dashboard, Click here](https://public.tableau.com/profile/roshan.lulu#!/vizhome/Aviation_Accidents/DelhiStory)
 
 <a id='model'></a>
 
@@ -113,3 +111,5 @@ Due to project time constraints, we have been able to boil down on one location.
 With the large amount of data, it can over-whelming to know where to start looking. This model can be used to narrow down on potential risk locations.
 
 As an enhancement to the model, more datasets relating to weather information, airport staffing, last maintenance information could be collected, to find more insights and apply different models.
+
+[Click here to view my capstone project on github](https://github.com/roshanlulu/gaProjects/tree/master/capstoneProject)
